@@ -10,6 +10,7 @@ permissions:
   
 jobs:
   bump_requirements:
+    if: ${{ github.actor == 'dependabot[bot]' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -36,5 +37,10 @@ jobs:
         poetry export --format requirements.txt --output requirements.txt
         git config --global user.name 'dependabot[bot]'
         git config --global user.email 'dependabot[bot]@users.noreply.github.com'
-        git commit -am "build(deps): Bump requirements.txt"
-        git push
+        git add poetry.lock requirements.txt
+        if [ -z "$(git status --porcelain)" ]; then 
+          echo 'No changes to commit on this run'
+          exit 0
+        else
+          git commit -m "build(deps): Bump requirements.txt"
+          git push
