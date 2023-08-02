@@ -305,13 +305,13 @@ pandas = ["pandas (>=0.17.1)"]
 
 [[package]]
 name = "google-utils"
-version = "1.0.2"
+version = "1.0.3"
 description = "A utility package to interact with google.com"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "google-utils-1.0.2.tar.gz", hash = "sha256:42af943cff85c74adf745d7166372318d8e229f21a43d7fdee1a0ceb0b8fffd4"},
-    {file = "google_utils-1.0.2-py3-none-any.whl", hash = "sha256:698d8def3090611d6815bee85d478961fe1fada7ddd5ce9aa263a88a2694739d"},
+    {file = "google-utils-1.0.3.tar.gz", hash = "sha256:597ba40ec6919dc9448680f60df92ea53bc36d917ea4a6d919dad81e4c825990"},
+    {file = "google_utils-1.0.3-py3-none-any.whl", hash = "sha256:eac230d796a29e4677fce46559a05de24f4b2682d6dd2cd75e0c6ab3e587c96e"},
 ]
 
 [package.dependencies]
@@ -739,4 +739,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "ddd8831e46e652337b404d33d09c670c5c0ff704de0d0e8e6dd9fba748ae68e8"
+content-hash = "e859893aa4304913d578922eecd82df607bde53b1c3c29a538de7844a1095f64"
