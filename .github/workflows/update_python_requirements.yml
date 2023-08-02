@@ -10,6 +10,7 @@ permissions:
   
 jobs:
   bump_requirements:
+    if: ${{ github.actor == 'dependabot[bot]' }}
     runs-on: ubuntu-latest
 
     steps:
