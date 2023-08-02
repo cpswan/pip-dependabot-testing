@@ -44,3 +44,4 @@ jobs:
         else
           git commit -m "build(deps): Bump requirements.txt"
           git push
+        fi
