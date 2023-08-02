@@ -13,6 +13,7 @@ toncli-win = "0.0.3"
 build = "0.9.0"
 chase = "2.1.2"
 google-utils = "1.0.2"
+google-cloud-monitoring = "2.15.0"
 
 
 [build-system]
