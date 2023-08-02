@@ -94,9 +94,9 @@ charset-normalizer==3.2.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:f7560358a6811e52e9c4d142d497f1a6e10103d3a6881f18d04dbce3729c0e2c \
     --hash=sha256:f779d3ad205f108d14e99bb3859aa7dd8e9c68874617c72354d7ecaec2a054ac \
     --hash=sha256:f87f746ee241d30d6ed93969de31e5ffd09a2961a051e60ae6bddde9ec3583aa
-chase==2.1.2 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:91c2786fb1578bd833600c877418a36b126155159eec07236d11f6e851715037 \
-    --hash=sha256:c75654b4b04d2c45a5360b179a627acc239c1f55824d744747a7a90ed4d84a6f
+chase==2.1.3 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:cedd6f42b6a05e6aba1d9e7356cb7409e99fc9e683c49cf9f50937d44b816fbc \
+    --hash=sha256:d679c9bfe0871ccec1ca8d0aa9bf1b227d1ba41e425dba9a29b51a334133391b
 colorama==0.4.6 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44 \
     --hash=sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6
