@@ -763,13 +763,13 @@ files = [
 
 [[package]]
 name = "toncli-win"
-version = "0.0.3"
+version = "0.0.4"
 description = "Easy to use CLI for fift / func projects"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "toncli-win-0.0.3.tar.gz", hash = "sha256:02e1db6057afb3fae499c6eb6d6116443d14c92d463efce3cf801cfa715b8bad"},
-    {file = "toncli_win-0.0.3-py3-none-any.whl", hash = "sha256:d13458bf79dda6668fc77093ecf45b6a4587864b2627da22c4db2ca6189ffa85"},
+    {file = "toncli-win-0.0.4.tar.gz", hash = "sha256:1473e58646e4dcb133097a791b3d72f2e0d3fdebf1a96083451def23f338581a"},
+    {file = "toncli_win-0.0.4-py3-none-any.whl", hash = "sha256:fed9fa2ed315bcb904f3346492466766ca8fd301bafb0565fc2f5bd0c5add378"},
 ]
 
 [package.dependencies]
@@ -810,4 +810,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "1833be4b4ed35dd977266c20af49245ce66634cad0fbe2b4353d712d57b69be6"
+content-hash = "76e8c5147ef30c2d0cf38a64b230957e8d6a51ea1ac047d3d70f4e25d34c1c9d"
