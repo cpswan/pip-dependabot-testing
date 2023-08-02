@@ -1,7 +1,8 @@
 name: Update requirements.txt when Dependabot updates Poetry
 on:
   pull_request:
-    branches: [ "dependabot/pip/*" ]
+    branches:
+      - 'dependabot/pip/**'
 
 permissions:
   pull-requests: write
