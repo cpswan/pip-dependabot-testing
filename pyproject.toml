@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "2.31.0"
-dnspython = "2.4.0"
+dnspython = "2.4.1"
 toncli-win = "0.0.3"
 build = "0.9.0"
 chase = "2.1.2"
