@@ -1,8 +1,8 @@
 name: Bump requirements.txt
 on:
   pull_request:
-    branches:
-      - 'dependabot/pip/**'
+    paths:
+      - 'pyproject.toml'
   workflow_dispatch:
 
 permissions:
