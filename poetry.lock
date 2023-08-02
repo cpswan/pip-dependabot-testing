@@ -283,13 +283,13 @@ requests = ["requests (>=2.20.0,<3.0.0.dev0)"]
 
 [[package]]
 name = "google-cloud-monitoring"
-version = "2.15.0"
+version = "2.15.1"
 description = "Stackdriver Monitoring API client library"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "google-cloud-monitoring-2.15.0.tar.gz", hash = "sha256:c3a0426ecd25a70da53b2a9079d71731229a8496a4edae8d3785eccbbf828d5b"},
-    {file = "google_cloud_monitoring-2.15.0-py2.py3-none-any.whl", hash = "sha256:79a644d40d30f612a105c0505c7eba07286e4389e4ada0c3a73eb63bc5d542b4"},
+    {file = "google-cloud-monitoring-2.15.1.tar.gz", hash = "sha256:086a845a34a6e105ab8a3a4809392ea6367a65b28b7561c26101534a8705ed37"},
+    {file = "google_cloud_monitoring-2.15.1-py2.py3-none-any.whl", hash = "sha256:4394e5e031f30d622a24739678ec48a45400ead94af9a6032cbff7f66194dc12"},
 ]
 
 [package.dependencies]
@@ -739,4 +739,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "ddd8831e46e652337b404d33d09c670c5c0ff704de0d0e8e6dd9fba748ae68e8"
+content-hash = "86f28d9ec8deff77c5e6f6cf99d1796f3076668842430e44c6eac8d4e6d17b1f"
