@@ -10,7 +10,7 @@ python = "^3.8"
 requests = "2.31.0"
 dnspython = "2.4.1"
 inquirerpy = "0.3.4"
-google-cloud-monitoring = "2.15.0"
+google-cloud-storage = "2.9.0"
 
 [build-system]
 requires = ["poetry-core"]
